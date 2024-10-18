@@ -1,4 +1,4 @@
-import config from "../conf";
+import config from "../config.js";
 import { Client, Account, ID } from "appwrite";
 
 export class AuthService {
@@ -55,8 +55,6 @@ export class AuthService {
             
         }
     }
-
-
 
 }
 
